@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PrincipalActivity!</string>
+    <string name="app_name">MisLugares</string>
+    <string name="lista">Lista</string>
+    <string name="mapa">Mapa</string>
+    <string name="gmap_api_key_debug">0Pdoh1QJp7b-EehLIqcWYXNTlXMk1Hn6Hp-fFiA</string>
+    <string name="gmap_api_key_release">0Pdoh1QJp7b8G-FBKp9cSIcWJuzudLqrwhbc4QA</string>
+    <string name="editarlugar_localizacion">Localización:</string>
+    <string name="editarlugar_descripcion">Descripción:</string>
+    <string name="crudname_edit">Editar</string>
+    <string name="crudname_delete">Eliminar</string>
+    <string name="crudname_create">Crear</string>
+    <string name="crudname_save">Guardar</string>
+    <string name="attention">¡Atención!</string>
+    <string name="ok">Sí</string>
+    <string name="cancel">Cancelar</string>
+    <string name="areyousure">¿Está seguro de que desea Eliminar el lugar?</string>
+    <string name="at">"en: "</string>
+    <string name="lista_de_lugares">Lista de Lugares</string>
+    <string name="mapa_de_lugares">Mapa de Lugares</string>
+    <string name="empty_list_message">Lista de luegares vacía. Para ver algún elemento en esta lista, por favor vuelva atrás, entre en el mapa y argege algún lugar</string>
+    
+</resources>

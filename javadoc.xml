@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" author="true" classpath="/home/arturo/Desarrollo/android-sdk-linux/tools/support/annotations.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="es.arturocandela.android.mislugares.maps,es.arturocandela.android.mislugares,es.arturocandela.android.mislugares.image" source="1.6" sourcepath="gen:src" splitindex="true" use="true" version="true">
+            <link href="file:/home/arturo/Desarrollo/android-sdk-linux/docs/reference/"/>
+        </javadoc>
+    </target>
+</project>

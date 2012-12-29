@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MisLugaresTheme" parent="android:Theme">
+        <item name="android:textColor">@color/verde_claro</item> 
+        <item name="android:background">@color/blanco</item>
+        <item name="android:buttonStyle">@style/MisLugaresButton</item>
+    </style>
+    
+    <style name="MisLugaresButton" parent="android:style/Widget.Button">
+        <item name="android:textColor">@color/verde_claro</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+</resources>

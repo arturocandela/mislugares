@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.arturocandela.android.mislugares"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8"/>
+	
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+        android:theme="@style/MisLugaresTheme" android:debuggable="false" android:allowBackup="true">
+        
+        <uses-library android:name="com.google.android.maps"/>
+        
+        <activity
+            android:label="@string/app_name"
+            android:name=".PrincipalActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".EditarLugarActivity"></activity>
+        <activity android:name=".ListaLugaresActivity"></activity>
+        <activity android:name=".MapaLugaresActivity"></activity>
+        <activity android:name=".MostrarLugarActivity"></activity>
+        
+        
+    </application>
+
+</manifest>

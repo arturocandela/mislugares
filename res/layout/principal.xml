@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btLista"
+        android:contentDescription="@string/lista_de_lugares"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:drawableLeft="@drawable/boton_lista"
+        android:text="@string/lista"
+        android:textSize="30dip"
+    	android:paddingLeft="100dip"
+    	android:paddingRight="50dip"
+    	android:singleLine="true" 
+        />
+
+    <Button
+        android:id="@+id/btMapa"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:contentDescription="@string/mapa_de_lugares"
+        android:scaleType="centerInside"
+        android:drawableLeft="@drawable/boton_mapa"
+        android:text="@string/mapa" 
+        android:textSize="30dip"
+        android:paddingLeft="100dip"
+    	android:paddingRight="50dip"
+    	android:singleLine="true"      
+        />
+
+</LinearLayout>
